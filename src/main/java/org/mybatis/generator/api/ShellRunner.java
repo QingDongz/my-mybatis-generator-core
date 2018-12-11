@@ -79,6 +79,7 @@ public class ShellRunner {
             return;
         }
 
+
         Set<String> fullyqualifiedTables = new HashSet<>();
         if (arguments.containsKey(TABLES)) {
             StringTokenizer st = new StringTokenizer(arguments.get(TABLES), ","); //$NON-NLS-1$
